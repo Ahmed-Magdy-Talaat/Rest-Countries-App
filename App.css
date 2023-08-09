@@ -73,7 +73,6 @@ nav {
   font-weight: 700;
 }
 .icon {
-  font-size: 1em;
   font-size: 1.5em;
   transform: rotate(-10deg);
 }
@@ -484,5 +483,11 @@ input.nosubmit {
   }
   .word {
     font-size: 1em;
+  }
+  .mainTitle {
+    font-size: 1.3em;
+  }
+  .icon {
+    font-size: 1.3em;
   }
 }

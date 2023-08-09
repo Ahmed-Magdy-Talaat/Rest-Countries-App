@@ -151,7 +151,7 @@ nav {
   justify-content: space-between;
   width: 95%;
   margin: auto;
-  gap: 2px;
+  gap: 10px;
 }
 .mainTitle {
   font-size: 1.5em;
@@ -347,6 +347,7 @@ input.nosubmit {
   }
   .divider {
     width: 100%;
+    justify-content: space-between;
   }
 }
 .card-link a {

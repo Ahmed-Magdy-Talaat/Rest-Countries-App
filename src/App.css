@@ -1,100 +1,15 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Open+Sans:wght@400;500;700;800&family=Pacifico&display=swap");
-
-
-body {
-  background-color: hsl(218, 23%, 16%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.card {
-  background-color: hsl(217, 20%, 24%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 650px;
-  padding: 3rem 4rem;
-  border-radius: 15px;
-  position: relative;
-  margin: auto;
-}
-.div-desktop {
-  width: 100%;
-}
-p {
-  margin-bottom: 2rem;
-  color: hsl(150, 100%, 66%);
-  letter-spacing: 1px;
-  font-weight: 800;
-  font-size: 15px;
-}
-
-h2 {
-  color: #cee3e9;
-  font-weight: 800;
-  /* letter-spacing: 2px; */
-/* margin-bottom: 3rem;
-  font-size: 30px;
-  text-align: center;
-}
-
-.dice {
-  margin-top: 2rem;
-  background-color: hsl(150, 100%, 66%);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.dice {
-  position: absolute;
-  bottom: -2rem;
-}
-.dice:hover,
-.btn:hover {
-  box-shadow: 0 0 30px 0 rgba(83, 255, 169, 1);
-  transition: 0.3s ease-in-out;
-}
-.btns {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-.btn img {
-  width: 50%;
-}
-
-@media (max-width: 768px) {
-  .card {
-    width: 90%;
-  }
-
-  @media (max-width: 375px) {
-    h2 {
-      font-size: 24px;
-    }
-    p {
-      font-size: 11px;
-    }
-  }
-} */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Nunito&family=Open+Sans:wght@400;500;700;800&family=Pacifico&display=swap");
 
 * {
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 #light {
-  background-color: #eeeeee;
+  background-color: #fcf9f9;
   box-shadow: 0 0 0;
 }
 #dark span {
@@ -564,7 +479,6 @@ input.nosubmit {
     width: 100%;
   }
   nav {
-    align-content: center;
-    align-items: center;
+    justify-content: space-between;
   }
 }

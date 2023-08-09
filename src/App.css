@@ -331,14 +331,22 @@ input.nosubmit {
     gap: 10px;
     width: 70%;
     margin: auto;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-top: 4%;
   }
+
   .nosubmit {
     width: 100%;
+    margin-top: 4%;
   }
   .dropDown {
     width: 50%;
+  }
+  nav {
+    font-size: 0.9em;
+  }
+  .divider {
+    width: 100%;
   }
 }
 .card-link a {
@@ -520,5 +528,42 @@ input.nosubmit {
     justify-content: start;
     align-items: start;
     margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 70%;
+  }
+  .img-div img {
+    height: 200px;
+  }
+  .filter {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .nosubmit {
+    width: 100%;
+    margin-top: 2%;
+  }
+  .dropDown {
+    width: 50%;
+  }
+  .divider {
+    width: 100%;
+  }
+  nav {
+    align-content: center;
+    align-items: center;
   }
 }

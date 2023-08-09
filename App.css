@@ -64,6 +64,8 @@ nav {
 .divider {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
   width: 95%;
   margin: auto;
   gap: 10px;

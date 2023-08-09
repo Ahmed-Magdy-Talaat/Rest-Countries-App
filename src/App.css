@@ -55,7 +55,7 @@
 
 /****************Navbar*************************/
 nav {
-  padding: 1.3em 2em;
+  padding: 1.1em 2em;
   background-color: white;
   margin-bottom: 3%;
   color: #858585;
@@ -74,7 +74,6 @@ nav {
 }
 .icon {
   font-size: 1em;
-  padding-right: 10px;
   font-size: 1.5em;
   transform: rotate(-10deg);
 }
@@ -87,7 +86,7 @@ nav {
 .icon-dark {
   display: flex;
   justify-content: space-around;
-  gap: 5px;
+  gap: 10px;
   align-items: center;
   align-content: center;
 }
@@ -480,5 +479,8 @@ input.nosubmit {
   }
   nav {
     justify-content: space-between;
+  }
+  .icon-dark {
+    gap: 5px;
   }
 }

@@ -85,13 +85,12 @@ nav {
 
 .icon-dark {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 10px;
-  align-items: center;
-  align-content: center;
+  /* align-items: center;
+  align-content: center; */
 }
 .word {
-  font-size: 0.9em;
   font-weight: 400;
 }
 .App {
@@ -479,10 +478,11 @@ input.nosubmit {
   }
   nav {
     justify-content: space-between;
-    align-items:center;
-    align-content:center;
   }
   .icon-dark {
     gap: 5px;
+  }
+  .word {
+    font-size: 1em;
   }
 }
